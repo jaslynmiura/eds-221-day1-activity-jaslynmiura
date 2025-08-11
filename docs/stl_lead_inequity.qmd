@@ -50,6 +50,8 @@ stl_pct_hist <- ggplot(data = stl_lead_prop,
        aes(x = pct_elevated)) + 
   geom_histogram(color = "gold", fill = "purple4", size = 2)
 
+stl_pct_hist
+
 ggsave(here::here("figs", "stl_pct_hist.jpg"), height = 5, width = 6)
 
 ```
